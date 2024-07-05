@@ -24,8 +24,8 @@ export const TopNavBar = () => {
             src={logoSrc}
             alt="FiloHr Logo"
             // className="h-8 w-full"
-            height={140}
-            width={140}
+            height={120}
+            width={120}
             priority
           />
         </Link>
@@ -35,7 +35,7 @@ export const TopNavBar = () => {
         >
           {[
             ["/resume-builder", "Builder"],
-            ["/resume-parser", "Parser"],
+            // ["/resume-parser", "Parser"],
           ].map(([href, text]) => (
             <Link
               key={text}

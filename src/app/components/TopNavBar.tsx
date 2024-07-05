@@ -13,23 +13,25 @@ export const TopNavBar = () => {
     <header
       aria-label="Site Header"
       className={cx(
-        "flex h-[var(--top-nav-bar-height)] items-center border-b-2 border-gray-100 px-3 lg:px-12",
+        "flex items-center border-b-2 border-gray-100 px-3 lg:px-12",
         isHomePage && "bg-dot"
       )}
     >
-      <div className="flex h-10 w-full items-center justify-between">
-        <Link href="/">
-          <span className="sr-only">OpenResume</span>
+      <div className="flex items-center justify-between w-full relative">
+        <Link href="https://filohr.com">
+          <span className="sr-only">FiloHr</span>
           <Image
             src={logoSrc}
-            alt="OpenResume Logo"
-            className="h-8 w-full"
+            alt="FiloHr Logo"
+            // className="h-8 w-full"
+            height={140}
+            width={140}
             priority
           />
         </Link>
         <nav
           aria-label="Site Nav Bar"
-          className="flex items-center gap-2 text-sm font-medium"
+          className="flex items-center gap-2 text-lg font-medium"
         >
           {[
             ["/resume-builder", "Builder"],
@@ -43,7 +45,7 @@ export const TopNavBar = () => {
               {text}
             </Link>
           ))}
-          <div className="ml-1 mt-1">
+          {/* <div className="ml-1 mt-1">
             <iframe
               src="https://ghbtns.com/github-btn.html?user=xitanggg&repo=open-resume&type=star&count=true"
               width="100"
@@ -51,7 +53,7 @@ export const TopNavBar = () => {
               className="overflow-hidden border-none"
               title="GitHub"
             />
-          </div>
+          </div> */}
         </nav>
       </div>
     </header>

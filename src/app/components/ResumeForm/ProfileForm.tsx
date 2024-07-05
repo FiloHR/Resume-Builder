@@ -20,7 +20,7 @@ export const ProfileForm = () => {
           label="Name"
           labelClassName="col-span-full"
           name="name"
-          placeholder="Sal Khan"
+          placeholder="Rohan"
           value={name}
           onChange={handleProfileChange}
         />
@@ -36,7 +36,7 @@ export const ProfileForm = () => {
           label="Email"
           labelClassName="col-span-4"
           name="email"
-          placeholder="hello@khanacademy.org"
+          placeholder="hello@website.com"
           value={email}
           onChange={handleProfileChange}
         />
@@ -52,7 +52,7 @@ export const ProfileForm = () => {
           label="Website"
           labelClassName="col-span-4"
           name="url"
-          placeholder="linkedin.com/in/khanacademy"
+          placeholder="linkedin.com/in/filohr"
           value={url}
           onChange={handleProfileChange}
         />

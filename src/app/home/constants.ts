@@ -12,14 +12,14 @@ export const END_HOME_RESUME: Resume = {
     name: "John Doe",
     summary:
       "Software engineer obsessed with building exceptional products that people love",
-    email: "hello@openresume.com",
+    email: "hello@filoHr.com",
     phone: "123-456-7890",
     location: "NYC, NY",
     url: "linkedin.com/in/john-doe",
   },
   workExperiences: [
     {
-      company: "ABC Company",
+      company: "Google",
       jobTitle: "Software Engineer",
       date: "May 2023 - Present",
       descriptions: [
@@ -29,7 +29,7 @@ export const END_HOME_RESUME: Resume = {
       ],
     },
     {
-      company: "DEF Organization",
+      company: "Apple",
       jobTitle: "Software Engineer Intern",
       date: "Summer 2022",
       descriptions: [
@@ -39,7 +39,7 @@ export const END_HOME_RESUME: Resume = {
       ],
     },
     {
-      company: "XYZ University",
+      company: "Netflix",
       jobTitle: "Research Assistant",
       date: "Summer 2021",
       descriptions: [
@@ -63,10 +63,10 @@ export const END_HOME_RESUME: Resume = {
   ],
   projects: [
     {
-      project: "OpenResume",
+      project: "Amazon Clone",
       date: "Spring 2023",
       descriptions: [
-        "Created and launched a free resume builder web app that allows thousands of users to create professional resume easily and land their dream jobs",
+        "Created amazon clone using react.js",
       ],
     },
   ],
